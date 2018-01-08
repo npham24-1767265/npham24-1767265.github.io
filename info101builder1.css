@@ -7,11 +7,11 @@ p {
     text-align: center;
 }
 
-#Youtube #audiodiv #videodiv {
+#Youtube, #audiodiv, #videodiv {
    margin:auto;
 }
 
-audio video {
+audio, video {
     margin: auto;
     display: block;
 }
