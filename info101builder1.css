@@ -11,7 +11,7 @@ p {
    margin:auto;
 }
 
-audio, video {
+object, audio, video {
     margin: auto;
     display: block;
 }
