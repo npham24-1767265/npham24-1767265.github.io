@@ -3,7 +3,7 @@ h1 {
     color: red;
 }
 
-p {
+p, a {
     text-align: center;
 }
 
