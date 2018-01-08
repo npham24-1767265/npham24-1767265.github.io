@@ -3,11 +3,11 @@ h1 {
     color: red;
 }
 
-p, a {
+p {
     text-align: center;
 }
 
-#Youtube, #audiodiv, #videodiv, #objectdiv {
+#Youtube, #audiodiv, #videodiv, #objectdiv, a {
    margin:auto;
 }
 
