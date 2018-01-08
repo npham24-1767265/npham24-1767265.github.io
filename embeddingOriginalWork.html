@@ -9,14 +9,15 @@
         <div id = "Youtube">
             <p align = "center">
                 <iframe width="560" height="315" align=middle src="https://www.youtube.com/embed/nBy4Ir_Pfng?start=180&autoplay=1" frameborder="0" 
-                gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                gesture="media" allow="encrypted-media" allowfullscreen>Your browser does not support iframe.</iframe>
             </p>
         </div>
         <hr>
         <div id = "videodiv">
             <p><strong>Aerobic.mp4</strong></p>
             <video controls>
-                    <source src="Aerobic.mp4" type="video/mp4">
+                <source src="Aerobic.mp4" type="video/mp4">
+                Your browser does not support video tags.
             </video>
         </div>
         <hr>
@@ -24,18 +25,19 @@
             <p><strong>Notification.wav</strong></p>
             <audio controls>
                 <source src="Notification.wav" type="audio/wav">
+                Your browser does not support audio tags.
             </audio>
         </div>
         <hr>
         <div id = "objectdiv">
             <p><strong><em>&ltobject&gt</em> tag</strong></p>
             <object data="uchimata.gif"></object>
+            Your browser does not support object tags.
         </div>
         <hr>
-        <div id = "RSSfeed">
+        <div id = "RSSdiv">
             <p><strong>RSS Feed</strong></p>
             <a href="http://feeds.feedburner.com/TechCrunch/" title="Subscribe to the RSS Feed"><img src="rss-button.gif" align="absmiddle" width="68" height="25" border="0" alt="Subscribe RSS Feed" /></a>
-            <script src="//rss.bloople.net/?url=https%3A%2F%2Fwww.rssinclude.com%2Fmy_rssboxes%2Fedit_box%3Fid%3D1166909&limit=5&showtitle=false&type=js"></script>
-        </div>
+            <iframe id = "RSSfeed" frameborder="0" src = "http://feeds.feedburner.com/TechCrunch/">Your browser does not support iframe.</iframe>
     </body>
 </html>
