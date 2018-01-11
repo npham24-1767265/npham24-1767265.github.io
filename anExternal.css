@@ -1,0 +1,44 @@
+#para1 {
+    font-family: Arial;
+    font-size: 20;
+    text-align: center;
+}
+
+#para2 {
+    font-family: cursive;
+    font-size: 15;
+}
+
+.imgSize1 {
+    height: 50px;
+    width: 50px;
+}
+
+.imgSize2 {
+    height: 150px;
+    width: 150px;
+}
+
+#textAndPhoto {
+    text-align: center;
+    margin: 20px;
+}
+
+#borderWithDottedLine {
+    border: 2px dotted black;
+    display: inline-block;
+    margin: auto;
+}
+
+#borderWithDottedLine p {
+    display: inline;
+}
+
+#floatImg {
+    float: left;
+}
+
+#roundedBorderCornerDiv {
+    border: 2px solid black;
+    border-radius: 10px;
+}
