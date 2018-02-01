@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Indigo League Application</title>
+    </head>
+    <body>
+        <h1>Indigo League Application</h1>
+        <fieldset id = "account">
+            <legend>Account</legend>
+            <div class = "field">
+                <label>Username:</label>
+                <input type = "text" name="username">
+            </div>
+            <br>
+            <div class = "field">
+                <label>Password:</label>
+                <input type = "password" name="password">
+            </div>
+            <br>
+    		<div class="field">
+    			<label>Repeat password:</label> 
+    			<input type="password" name="password_r">
+    		</div>
+    		
+        </fieldset>
+        <fieldset id = "personal-information">
+            <legend>Personal Information</legend>
+            <div class = "field">
+                <label>First Name:</label>
+                <input type="text" name="firstname"> 
+            </div>
+            <br>
+            <div class = "field">
+                <label>Last Name:</label>
+                <input type="text" name="lastname">
+            </div>
+            <br>
+            <div class = "field">
+                <label>Region:</label>
+				<div class="radio">
+					<label>
+						<input type="radio" name="region" value="kanto">Kanto
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="region" value="johto">Johto
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="region" value="hoenn">Hoenn
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="region" value="sinnoh">Sinnoh
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="region" value="unova">Unova
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="region" value="kalos">Kalos
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="region" value="alola">Alola
+					</label>
+				</div>
+            </div>
+            <br>
+            <div class = "field">
+                <label>City</label>
+                <select name = "city">
+                    <option value="" selected="true">Choose a City</option>
+                    <option value="Accumula">Accumula Town</option>	
+                    <option value="Ambrette">Ambrette Town</option>
+                    <option value ="Anistar">Anistar City</option>
+                    <option value ="Anville">Anville Town</option>
+                    <option value ="Aquacorde">Aquacorde Town</option>
+                    <option value ="Aspertia">Aspertia City</option>
+                    <option value ="Azalea">Azalea Town</option>
+                    <option value ="Black City">Black City</option>
+                    <option value ="Blackthorn">Blackthorn City</option>
+                    <option value ="Camphrier">Camphrier Town</option>
+                    <option value ="Canalave">Canalava City</option>
+                    <option value ="Castelia">Castelia City</option>
+                    <option value ="Celadon">Celadon City</option>
+                    <option value ="Celestic">Celestic Town</option>
+                    <option value ="Cerulean">Cerulean City</option>
+                    <option value ="Cherrygrove">Cherrygrove City</option>
+                    <option value ="Cianwood">Cianwood City</option>
+                    <option value ="Cinnabar">Cinnabar Island</option>
+                    <option value ="Coumarine">Coumarine City</option>
+                    <option value ="Cyllage">Cyllage City</option>
+                    <option value ="Dendemille">Dendemille Town</option>
+                    <option value ="Dewford">Dewford Town</option>
+                    <option value ="Driftveil">Driftveil City</option>
+                    <option value ="Ecruteak">Ecruteak City</option>
+                    <option value ="Eterna">Eterna City</option>
+                    <option value ="EverGrande">Ever Grande City</option>
+                    <option value ="Fallabor">Fallabor Town</option>
+                    <option value ="Floaroma">Floaroma Town</option>
+                    <option value ="Fortree">Fortree City</option>
+                    <option value ="Fuchsia">Fuchsia City</option>
+                    <option value ="Geosenge">Geosenge Town</option>
+                    <option value ="Goldenrod">Goldenrod City</option>
+                    <option value ="Hau'oli">Hau'oli City</option>
+                    <option value ="Heahea">Heahea City</option>
+                    <option value ="Hearthome">Hearthome City</option>
+                    <option value ="Humilau">Humilau City</option>
+                    <option value ="Icirrus">Icirrus City</option>
+                    <option value ="Iki">Iki Town</option>
+                    <option value ="Jubilife">Jubilife City</option>
+                    <option value ="Kiloude">Kiloude City</option>
+                    <option value ="Konikoni">Konikoni City</option>
+                    <option value ="Lacunosa">Lacunosa Town</option>
+                    <option value ="Lavaridge">Lavaridge Town</option>
+                    <option value ="Lavender">Lavender Town</option>
+                    <option value ="Laverre">Laverre City</option>
+                    <option value ="Lentimas">Lentimas Town</option>
+                    <option value ="Littleroot">Littleroot Town</option>
+                    <option value ="Lilycove">Lilycove City</option>
+                    <option value ="Lumiouse">Lumiouse City</option>
+                    <option value ="Mahogany">Mahogany Town</option>
+                    <option value ="Malie">Malie City</option>
+                    <option value ="Mauville">Mauville City</option>
+                    <option value ="Mistralton">Mistralton City</option>
+                    <option value ="Mossdeep">Mossdeep City</option>
+                    <option value ="Nacrene">Nacrene City</option>
+                    <option value ="NewBark">New Bark Town</option>
+                    <option value ="Nimbasa">Nimbasa City</option>
+                    <option value ="Nuvema">Nuvema Town</option>
+                    <option value ="Oldale">Oldale Town</option>
+                    <option value ="Olivine">Olivine City</option>
+                    <option value ="Opelucid">Opelucid City</option>
+                    <option value ="Oreburgh">Oreburgh City</option>
+                    <option value ="Pacifidlog">Pacifidlog Town</option>
+                    <option value ="Pallet">Pallet Town</option>
+                    <option value ="Paniola">Paniola Town</option>
+                    <option value ="Pastoria">Pastoria Town</option>
+                    <option value ="Petalburg">Petalburg City</option>
+                    <option value ="Pewter">Pewter City</option>
+                    <option value ="Po">Po Town</option>
+                    <option value ="Rustboro">Rustboro City</option>
+                    <option value ="Saffron">Saffron City</option>
+                    <option value ="Sandgem">Sandgem Town</option>
+                    <option value ="Santalune">Santalune City</option>
+                    <option value ="Seafolk">Seafolk Village</option>
+                    <option value ="Shalour">Shalour City</option>
+                    <option value ="Slateport">Slateport City</option>
+                    <option value ="Snowbelle">Snowbelle City</option>
+                    <option value ="Snowpoint">Snowpoint City</option>
+                    <option value ="Solaceon">Solaceon City</option>
+                    <option value ="Sootopolis">Sootopolis City</option>
+                    <option value ="Striaton">Striaton City</option>
+                    <option value ="Sunyshore">Sunyshore City</option>
+                    <option value ="Tapu">Tapu Village</option>
+                    <option value ="Twinleaf">Twinleaf Town</option>
+                    <option value ="Undella">Undella Town</option>
+                    <option value ="Vaniville">Vaniville Town</option>
+                    <option value ="Veilstone">Veilstone City</option>
+                    <option value ="Verdanturf">Verdanturf Town</option>
+                    <option value ="Vermilion">Vermilion City</option>
+                    <option value ="Violet">Violet City</option>
+                    <option value ="Virbank">Virbank City</option>
+                    <option value ="Viridian">Viridian City</option>
+                    <option value ="WhiteForest">White Forest</option>
+                </select>
+            
+            
+            </div>
+            <div class = "field">
+                <label>Address:</label>
+                <input type="text" name="address">
+            </div>
+        </fieldset>
+        
+        
+        <fieldset>
+            <legend>Position</legend>
+            <div>
+    			<label>What type of position are you seeking? (check all that apply)</label>
+    			<div class="checkbox">
+    				<label>
+    					<input type="checkbox" name="position_pt" value="parttime">
+    					Part time
+    				</label>
+    			</div>
+    			<div class="checkbox">
+    				<label>
+    					<input type="checkbox" name="position_ft" value="fulltime">
+    					Full time
+    				</label>
+    			</div>
+    			<div class="checkbox">
+    				<label>
+    					<input type="checkbox" name="position_sl" value="seasonal">
+    					Seasonal
+    				</label>
+    			</div>
+    			<div class="checkbox">
+    				<label>
+    					<input type="checkbox" name="position_tp" value="temporary">
+    					Temporary
+    				</label>
+    			</div>
+    		</div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Personal Statement</legend>
+            <div>
+			    <label>Describe yourself in 5 sentences</label>
+			    <textarea class="form-control" name="deserve" rows="6"></textarea>
+		    </div>
+		    <div>
+			    <label>Why do you think you deserve a spot in the Elite 4?</label>
+			    <textarea class="form-control" name="deserve" rows="6"></textarea>
+		    </div>
+        </fieldset>
+        
+        <input type="submit" value="Submit form">
+    </body>
+</html>
